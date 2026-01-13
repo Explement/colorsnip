@@ -1,5 +1,5 @@
 # ColorSnip
-A Windows-based JavaFX color picker with a subtle snip sound and minimal UI.
+A Windows-based JavaFX color picker with a subtle snip sound, minimal UI, and automatic copying of picked colors to the clipboard.
 
 ## Installation
 1. Go to the [v1.0.0 release](https://github.com/Explement/colorsnip/releases/tag/v1.0.0) and download `colorsnip-image.zip`.
