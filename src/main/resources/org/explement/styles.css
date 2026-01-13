@@ -1,0 +1,95 @@
+#colorSwatch {
+	-fx-border-width: 0.85;
+	-fx-background-radius: 8;
+	-fx-border-radius: 8;
+	-fx-border-color: #d9d9d9;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 10, 0, 0, 1);
+}
+
+#rgbButton, #hexButton, #hsbButton {
+	-fx-background-color: rgb(242, 246, 250);
+	-fx-background-radius: 8;
+	-fx-border-color: rgb(225, 231, 239);
+	-fx-border-width: 0.5;
+	-fx-border-radius: 8;
+	-fx-font-family: "Arial";
+	-fx-font-size: 12px;
+	-fx-text-fill: #475569;
+	-fx-padding: 6 10;
+}
+
+#rgbButton:selected, #hexButton:selected, #hsbButton:selected {
+	-fx-background-color: #E2E8F0;
+	-fx-text-fill: black;
+}
+
+#rgbButton:hover, #hexButton:hover, #hsbButton:hover {
+    -fx-background-color: #f9fafb;
+    -fx-text-fill: black;
+}
+
+#rgbButton:selected:hover, #hexButton:selected:hover, #hsbButton:selected:hover {
+    -fx-background-color: #E2E8F0;
+    -fx-text-fill: black;
+}
+
+#colorLabel {
+	-fx-background-color: #F8FAFC;
+	-fx-border-color: #CAD5E2;
+	-fx-border-radius: 8;
+	-fx-background-radius: 4;
+	-fx-font-family: "Arial";
+	-fx-font-size: 13px;
+	-fx-alignment: CENTER; 
+}
+
+#grabColorButton {
+	-fx-background-color: #155DFD;
+	-fx-background-insets: 0;
+	-fx-border-width: 0;
+	-fx-border-color: transparent;
+	-fx-background-radius: 8;
+	-fx-text-fill: white;
+	-fx-font-family: "Arial";
+	-fx-font-size: 13px;
+}
+
+#grabColorButton:hover {
+    -fx-background-color: #3A6FFD;
+}
+#grabColorButton:pressed {
+    -fx-background-color: #5A8BFF;
+}
+
+#historySeparator .line {
+	-fx-background-color: #d9d9d9;
+	-fx-border-color: transparent;
+	-fx-min-height: 1;
+	-fx-max-height: 1;
+	-fx-pref-height: 1;
+	-fx-background-insets: 0;
+	-fx-padding: 0;
+}
+
+#settingsButton, #themeToggle {
+	-fx-border-color: transparent;
+	-fx-background-color: #E2E8F0;
+	-fx-background-radius: 8;
+	-fx-border-radius: 8;
+	-fx-padding: 4px;
+	-fx-min-width: 28px;
+	-fx-min-height: 28px;
+	-fx-max-width: 28px;
+	-fx-max-height: 28px;
+	-fx-background-insets: 0;
+	-fx-alignment: center;
+}
+
+#settingsButton:hover, #themeToggle:hover {
+	-fx-background-color: #CBD5E1;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 6, 0, 0, 1);
+}
+
+#settingsButton:pressed, #themeToggle:pressed {
+	-fx-background-color: #B6C6D4;
+}

@@ -1,0 +1,35 @@
+# Java
+*.class
+# Package Files #
+*.jar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.next
+pom.xml.bak
+pom.xml.versions
+pom.xml.releaseBackup
+release.properties
+dependency-reduced-pom.xml
+builddirectory/
+
+# Eclipse m2
+.apt_generated
+.cache
+.m2/repository
+.maven/
+.project
+.settings
+.factorypath
+
+# IntelliJ IDEA
+.idea/
+*.iml
+/out/
+
+# VS Code
+.vscode/
+
+# Log
+.log
